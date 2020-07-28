@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#slider {
+  position: relative;
+  margin: 50px 50px;
+  background-color: grey;
+  height: 20px;
+}
+
+#slider span {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #fff;
+}
+
+#slider button {
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  transform: translateX(-50%);
+  user-select: none;
+}
